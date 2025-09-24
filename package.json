@@ -1,6 +1,6 @@
 {
   "name": "titleseq",
-  "version": "0.5.1",
+  "version": "0.5.2",
   "description": "Simple title sequence generator",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
