@@ -1,0 +1,20 @@
+{
+  "name": "titleseq",
+  "version": "0.1.0",
+  "description": "Simple title sequence generator",
+  "main": "src/index.ts",
+  "keywords": [
+    "title generator",
+    "title sequence"
+  ],
+  "author": "isnakode",
+  "bugs": {
+    "url": "https://github.com/isnakode/titleseq/issues"
+  },
+  "homepage": "https://github.com/isnakode/titleseq#readme",
+  "license": "MIT",
+  "packageManager": "pnpm@10.12.4",
+  "devDependencies": {
+    "vitest": "^3.2.4"
+  }
+}
