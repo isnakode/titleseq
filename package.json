@@ -2,11 +2,15 @@
   "name": "titleseq",
   "version": "0.1.0",
   "description": "Simple title sequence generator",
-  "main": "src/index.ts",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
   "keywords": [
     "title generator",
     "title sequence"
   ],
+  "scripts": {
+    "build": "tsc --build"
+  },
   "author": "isnakode",
   "bugs": {
     "url": "https://github.com/isnakode/titleseq/issues"
@@ -15,6 +19,7 @@
   "license": "MIT",
   "packageManager": "pnpm@10.12.4",
   "devDependencies": {
+    "typescript": "^5.9.2",
     "vitest": "^3.2.4"
   }
 }

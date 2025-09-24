@@ -1,0 +1,17 @@
+{
+    "compilerOptions": {
+        "moduleResolution": "nodenext",
+        "target": "ES2020",
+        "module": "nodenext",
+        "declaration": true, // generates .d.ts types
+        "outDir": "dist",
+        "lib": [
+            "ES2020",
+            "DOM"
+        ],
+        "strict": true
+    },
+    "include": [
+        "src/**/*"
+    ]
+}
